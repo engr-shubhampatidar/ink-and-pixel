@@ -6,6 +6,8 @@ import apiLogo from '../assets/apiLogo.png';
 const Techs = () => {
     return (
         <>
+          <div className='techs-bg h-screen max-lg:h-full flex flex-col items-center justify-center' >
+
             <div>
                 <h1 className='text-[40px] font-bold'>What we Offer</h1>
                 <p className='mt-2 text-[24px] font-[600]'>End-to-end tech expertise to bring your </p>
@@ -13,8 +15,8 @@ const Techs = () => {
             </div>
             <div className='flex justify-center items-center mt-[36px]'>
 
-                <div className='grid grid-cols-3 gap-[20px]'>
-                    <div className='techs border border-gray-700 rounded-[50px] w-[403px] px-[60px] py-[78px]'>
+                <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-[20px] p-5'>
+                    <div className='techs border border-gray-700 rounded-[50px] w-[403px] max-lg:w-full px-[60px] max-lg:px-8 py-[78px] max-lg:py-8'>
                         <div className='flex flex-col justify-center gap-[20px]'>
                             <div className='flex justify-center items-center'>
                                 <img src={webLogo} alt="Logo" />
@@ -25,7 +27,7 @@ const Techs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='techs border border-gray-700 rounded-[50px] w-[403px] px-[30px] py-[78px]'>
+                    <div className='techs border border-gray-700 rounded-[50px] w-[403px] max-lg:w-full px-[30px] max-lg:px-5 py-[78px] max-lg:py-8'>
                         <div className='flex flex-col justify-center gap-[20px]'>
                             <div className='flex justify-center items-center'>
                                 <img src={testLogo} alt="Logo" />
@@ -36,7 +38,7 @@ const Techs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='techs border border-gray-700 rounded-[50px] w-[403px] px-[60px] py-[78px]'>
+                    <div className='techs border border-gray-700 rounded-[50px] w-[403px] max-lg:w-full px-[60px] max-lg:px-8 py-[78px] max-lg:py-8'>
                         <div className='flex flex-col justify-center gap-[20px]'>
                             <div className='flex justify-center items-center'>
                                 <img src={apiLogo} alt="Logo" />
@@ -49,6 +51,7 @@ const Techs = () => {
                     </div>
                 </div>
             </div>
+          </div>
         </>
     )
 }

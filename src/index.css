@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Rethink Sans";
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,20 +19,56 @@
   color: #FFFFFF;
 }
 
+.home-bg {
+  background-image: url(../src/assets/HomeBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Set opacity */
+  opacity: 1; /* Adjust opacity value as needed (0.0 to 1.0) */
+  background-blend-mode: multiply;
+}
+.techs-bg {
+  background-image: url(../src//assets/circleFrame.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 11;
+
+  /* Set opacity */
+  opacity: 1; /* Adjust opacity value as needed (0.0 to 1.0) */
+  background-blend-mode: multiply;
+}
+
 .line-hieght {
   font-family: "Rethink Sans";
-  line-height: 78px;
-  background-image: linear-gradient(30deg, #FFFFFF, #50149A);
+  background-image: linear-gradient(30deg, #FFFFFF, #50149a81);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .techs {
-  background-image: linear-gradient(45deg, #23194f10 0%, #5317a114 100%);
+  background-image: linear-gradient(180deg, #23194F80 5%, #5317a13c 80%);
   border: 0.5px solid #132fb91a;
 }
-
+.techs-logo {
+  background-image: linear-gradient(180deg, #23194F80 5%, #5317a13c 80%);
+  border: 1.5px solid #132fb91a;
+}
+.techs-button {
+  background-image: linear-gradient(180deg, #23194F80 5%, #5317a13c 80%);
+  border: 1.5px solid #132fb91a;
+}
+.border-line {
+  border-bottom: 0.5px solid #5317A1;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.foot-text {
+  bottom: 0px;
+}
 span {
   background-image: linear-gradient(30deg, #FFFFFF, #50149A);
   background-clip: text;
@@ -40,8 +76,27 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
-.about-container {
-  line-height: 67px;
+/* .about-container {
+  line-height: px;
+} */
+.pro-img {
+  width: 100%;              
+  height: 100%;            
+  /* background-image: url('your-image.jpg'); */
+  background-size: cover;   
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.decorate-txt {
+  background-image: linear-gradient(30deg, #FFFFFF, #50149A);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+
 @import "tailwindcss";
+
+
+
+
