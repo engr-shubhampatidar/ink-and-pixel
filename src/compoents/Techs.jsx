@@ -9,9 +9,9 @@ const Techs = () => {
           <div className='techs-bg h-screen max-lg:h-full flex flex-col items-center justify-center' >
 
             <div>
-                <h1 className='text-[40px] font-bold'>What we Offer</h1>
-                <p className='mt-2 text-[24px] font-[600]'>End-to-end tech expertise to bring your </p>
-                <p className='text-[24px] font-[600]'>vision to life — fast, scalable, and reliable.</p>
+                <h1 className='md:text-[40px] text-2xl font-bold'>What we Offer</h1>
+                <p className='mt-2 text-[24px] max-xl:text-sm  font-[600]'>End-to-end tech expertise to bring your </p>
+                <p className='text-[24px] max-xl:text-sm  font-[600]'>vision to life — fast, scalable, and reliable.</p>
             </div>
             <div className='flex justify-center items-center mt-[36px]'>
 

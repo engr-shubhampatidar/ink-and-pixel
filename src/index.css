@@ -24,9 +24,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   /* Set opacity */
-  opacity: 1; /* Adjust opacity value as needed (0.0 to 1.0) */
+  opacity: 1; 
   background-blend-mode: multiply;
 }
 .techs-bg {
@@ -36,8 +35,9 @@
   background-repeat: no-repeat;
   z-index: 11;
 
+
   /* Set opacity */
-  opacity: 1; /* Adjust opacity value as needed (0.0 to 1.0) */
+  opacity: 1;
   background-blend-mode: multiply;
 }
 
@@ -63,8 +63,6 @@
 }
 .border-line {
   border-bottom: 0.5px solid #5317A1;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
 }
 .foot-text {
   bottom: 0px;

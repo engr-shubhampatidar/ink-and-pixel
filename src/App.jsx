@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React from 'react';
 import Home from './compoents/Home';
 import Techs from './compoents/Techs';
 import Projects from './compoents/Projects';
@@ -11,11 +11,11 @@ function App() {
     <>
       <div>
         <Home />
-        <Techs />
-        <Projects/>
-        <About />
+         <Techs />
+         <Projects/>
+         <About />
         <Skills/>
-        <Footer/>
+         <Footer/> 
       </div>
     </>
   )

@@ -13,12 +13,13 @@ import arrow from '../assets/arrowR.svg';
     <>
       <div className="h-[100vh] max-lg:h-full w-full flex items-center justify-center mt-[150px]">
          <div className="h-full w-full  flex flex-col items-center justify-center px-[50px]">
-          <h1 className='text-[40px] max-xl:text-2xl font-bold'>Overall Work</h1>
+          <h1 className='md:text-[40px] text-2xl font-bold'>Overall Work</h1>
           <p className='decorate-txt mt-2 text-[24px] max-xl:text-sm  font-[600]'>Crafting Scalable Digital Solutions with Clean Code & Performance in Mind</p>
-          <div className="grid grid-cols-3 max-lg:grid-cols-1 w-full px-[40px] mt-[120px] gap-5 ">
+          <div className="grid grid-cols-3 max-lg:grid-cols-1 md:w-[90%] w-full md:px-[20px] mt-[120px] gap-5 ">
             <div className=" w-full">
-                <img className="pro-img rounded-[36px]" src={project} alt="photo" />
+                <img className="pro-img rounded-[36px] border-4 border-[#D9D9D9]" src={project} alt="photo" />
             </div>
+            
             <div className="techs border rounded-[50px] h-full col-span-2 text-left py-[42px] max-lg:px-5 px-[120px] max-lg:py-5 flex flex-col items-start gap-[30px]">
                 <h1 className="decorate-txt text-[36px] font-[500] mt-2">Raedom</h1>
                 <h3 className="decorate-txt text-[24px] font-[400]">Rental Storage Platform</h3>
